@@ -1,0 +1,22 @@
+/* .circle {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: red;
+  transition: width 9.5s ease, height 9.5s ease;
+}
+
+.visible {
+  width: 200px;
+  height: 200px;
+} */
+
+.image img:hover{
+     height: 490px;
+     width: 490px;
+     border-radius: 50% !important;
+     transition-duration: 5s;
+     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+     
+     
+}
